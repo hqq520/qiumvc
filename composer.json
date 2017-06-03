@@ -1,0 +1,23 @@
+{
+    "name": "hqq520/qiumvc",
+    "description": "this is my mvc",
+    "authors": [
+        {
+            "name": "hqq520",
+            "email": "460592800@qq.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "core/function/function.php"
+        ],
+        "psr-4": {
+            "core\\": "core/",
+            "app\\": "app/"
+        }
+    },
+    "require": {
+        "filp/whoops": "^2.1",
+        "gregwar/captcha": "^1.1"
+    }
+}
